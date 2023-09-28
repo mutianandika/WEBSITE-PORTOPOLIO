@@ -1,0 +1,148 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9e3f9;
+}
+header{
+    background-color: #DDA0DD;
+}
+nav{
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 49%; 
+    display: flex; 
+    list-style-type: none; 
+    gap: 62px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.conten{
+    margin-top: 8%;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 35%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about{
+    margin-top: 25%;
+}
+.img{
+    position: absolute;
+    left: 70%;
+    top: 25%;
+    transform: translateX(-40%);
+}
+.section{
+    border: 2px solid black; 
+    background-color: #f9e3f9;
+    width: 60%;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text{
+    padding: 9%;
+}
+.skill{
+    margin-top: 15%;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.td{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    margin-left: 16%;
+    margin-top: 30px;
+}
+.flex > div {
+    background-color: #DDA0DD;
+    margin: 10px;
+    padding: 30px;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    width: 40px;
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+.form{
+    margin-left: 13%;
+    margin-top: 15%;
+    border-radius: 5px;
+    padding: 30px;
+    width: 70%;
+    background-color: #f9e3f9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col{
+    float: left;
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p{
+    text-align: center;
+    margin-bottom: 5%;
+}
+label{
+    padding: 20px 20px 20px ;
+    display: inline-block;
+}
+input{
+    width: 425%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input text, textarea{
+    width: 420%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #DDA0DD;
+    color: rgb(71, 68, 68);
+    border: none;
+    border-radius:4px;
+    margin-top: 10px;
+    margin-left: 131vh;
+    width: auto;
+}
+footer{
+    background-color: #DDA0DD;
+    margin-top: 15%;
+    height: 200px;
+    margin-bottom: 0px;
+}
+.footer{
+    text-align: center;
+    padding-top: 7%;
+}
